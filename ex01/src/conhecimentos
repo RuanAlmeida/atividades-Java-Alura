@@ -1,0 +1,8 @@
+📝 Notas de Estudo: Construtores e Herança
+Instanciação com Parâmetros: O construtor permite que o objeto receba dados obrigatórios no momento exato da criação (new), garantindo que ele não comece com valores vazios ou inválidos.
+
+Construtor Default (Padrão): É o construtor sem argumentos que o Java cria automaticamente se você não escrever nenhum. Se você criar um construtor personalizado, o padrão deixa de existir, a menos que você o escreva explicitamente.
+
+Declaração de Construtores: Deve possuir obrigatoriamente o mesmo nome da Classe e não tem tipo de retorno (nem mesmo void). É o bloco que define como o objeto deve ser montado.
+
+Palavra-chave super: Em classes que herdam de outras, o super é usado para acionar o construtor da classe pai. Ele é obrigatório quando a classe mãe não tem um construtor padrão e deve ser sempre a primeira instrução dentro do construtor da classe filha.
