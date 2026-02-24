@@ -1,5 +1,6 @@
-import com.google.gson.FieldNamingPolicy;
+
 import com.google.gson.Gson;
+
 import com.google.gson.GsonBuilder;
 import modelos.Pessoa;
 
@@ -7,23 +8,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        String jsonRecebido = """
-                {
-                    "nome": "Ruan Almeida",
-                    "idade": 19,
-                    "cidade": "São Paulo"
-                }
-                """;
-        Gson gson = new GsonBuilder()
-                .setPrettyPrinting()
-                .create();
+        String jsonPessoa = "{\"nome\":\"Rodrigo\",\"idade\":20,\"cidade\":\"Brasília\"}";
 
-        Pessoa pessoa = gson.fromJson(jsonRecebido, Pessoa.class);
-        System.out.println(pessoa);
-        System.out.println(pessoa.cidade());
-
-
-
+        Gson gosn = new GsonBuilder()
+                .setLenient()
+                        .create();
+        Pessoa pessoa = gosn.fromJson(jsonPessoa, Pessoa.class);
+        System.out.println("Objeto Pessoa: " + pessoa);
 
     }
 }
