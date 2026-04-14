@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
@@ -23,3 +24,25 @@ public class Main{
         System.out.println(dataDaPrimeiraParcela.format(formato));
     }
 }
+=======
+
+import com.google.gson.Gson;
+
+import com.google.gson.GsonBuilder;
+import modelos.Pessoa;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        String jsonPessoa = "{\"nome\":\"Rodrigo\",\"idade\":20,\"cidade\":\"Brasília\"}";
+
+        Gson gosn = new GsonBuilder()
+                .setLenient()
+                        .create();
+        Pessoa pessoa = gosn.fromJson(jsonPessoa, Pessoa.class);
+        System.out.println("Objeto Pessoa: " + pessoa);
+
+    }
+}
+>>>>>>> 3548f3ec5bbeb924ba8410edd58210dff39c87e0

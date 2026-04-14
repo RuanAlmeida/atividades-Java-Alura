@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ViaCep/ViaCep.iml" filepath="$PROJECT_DIR$/ViaCep/ViaCep.iml" />
       <module fileurl="file://$PROJECT_DIR$/estudos-java-alura.iml" filepath="$PROJECT_DIR$/estudos-java-alura.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex01/ex01.iml" filepath="$PROJECT_DIR$/ex01/ex01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex02/ex02.iml" filepath="$PROJECT_DIR$/ex02/ex02.iml" />
@@ -9,6 +10,13 @@
       <module fileurl="file://$PROJECT_DIR$/ex04/ex04.iml" filepath="$PROJECT_DIR$/ex04/ex04.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex05/ex05.iml" filepath="$PROJECT_DIR$/ex05/ex05.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex06/ex06.iml" filepath="$PROJECT_DIR$/ex06/ex06.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/ex07/ex07.iml" filepath="$PROJECT_DIR$/ex07/ex07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex08/ex08.iml" filepath="$PROJECT_DIR$/ex08/ex08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex09/ex09.iml" filepath="$PROJECT_DIR$/ex09/ex09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex10/ex10.iml" filepath="$PROJECT_DIR$/ex10/ex10.iml" />
+>>>>>>> 3548f3ec5bbeb924ba8410edd58210dff39c87e0
     </modules>
   </component>
 </project>

@@ -1,0 +1,8 @@
+{
+  "cep": "04937-130",
+  "logradouro": "Praça das Notas Musicais",
+  "complemento": "",
+  "bairro": "Vila Bom Jardim",
+  "uf": "SP",
+  "regiao": "Sudeste"
+}
